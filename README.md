@@ -24,9 +24,9 @@ For burning the disk given by `package-uefi` or `bios` to a USB, I recommend usi
   - [x] GPT parser(see [GPT](stage2/common/gpt.zig))
   - [x] Config file parser(see [config](stage2/common/config.zig))
   - [x] Relatively portable build system(see [build](build.zig))
-  - [ ] Elf File loader
+  - [x] Elf File loader
   - [ ] Framebuffer
-  - [ ] Pride theming
+  - [x] Pride theming
 - BIOS
   - [x] Stage 1 that loads Stage 2(see [boot](stage1/boot.asm))
   - [x] ISRs, PIC, and IDT(see [IDT](stage2/arch/bios/asm/idt.zig) and [PIC](stage2/arch/bios/asm/pic.zig))
@@ -39,7 +39,7 @@ For burning the disk given by `package-uefi` or `bios` to a USB, I recommend usi
   - [x] Protocol wrapper(see [protocol](stage2/arch/uefi/wrapper/protocol.zig))
   - [x] Matching functionality with BIOS
   - [x] Disk building script for use with real hardware(see [make_uefi_disk](scripts/make_uefi_disk.sh))
-  - [ ] Exit boot services and jump to kernel
+  - [x] Exit boot services and jump to kernel
 
 ## Goals
 - [ ] Reasonable API integration with zig STD(f.e. file system integration)
