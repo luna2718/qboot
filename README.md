@@ -1,5 +1,5 @@
 # QBoot ![Lines of Code Badge](https://tokei.rs/b1/github/luna-nas/qboot)
-QBoot is a somewhat simple bootloader designed as a learning experience for myself and others, focusing on code style and readability over performance to help others understand how bootloaders work. The name is short for QueerBoot, as the project is meant to be queer-friendly and the intended audience is queer developers, although all allies are welcome too!
+QBoot is a somewhat simple bootloader designed as a learning experience for myself and others, focusing on code style and readability over performance to help others understand how bootloaders work.
 
 ## Dependencies
 To build the bootloader, you need `nasm`, `fdisk`, and `dd` on BIOS, and `zig` for both BIOS and UEFI. The latest zig build the bootloader was compiled under is `0.12.0-dev.21+ac95cfe44`
